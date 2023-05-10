@@ -103,7 +103,7 @@ class Bot:
 
     def show_schedule(self):
         self.speak("Abrindo sua agenda...")
-        print("Abrindo sua agenda")
+        print("Abrindo sua agenda...")
 
         os.system("agenda.txt")
 
@@ -321,6 +321,7 @@ Joãozinho entrega para o pai o boleto da mensalidade escolar.
 
     def set_env(self):
         self.speak("Setando seu ambiente...")
+        print("Setando seu ambiente...")
 
         webbrowser.open("https://google.com")
         webbrowser.open("https://www.youtube.com/")
@@ -329,6 +330,8 @@ Joãozinho entrega para o pai o boleto da mensalidade escolar.
 
     def calc(self):
         self.speak("Abrindo calculadora...")
+        print("Abrindo calculadora...")
+
         os.system("calc.exe")
 
     def dict(self):

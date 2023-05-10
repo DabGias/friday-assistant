@@ -63,6 +63,7 @@ with mic:
 
                         elif command.lower() in [
                             "me conte uma piada",
+                            "conte uma piada",
                             "conte-me uma piada",
                             "piada",
                             "me faça rir",
@@ -135,6 +136,7 @@ with mic:
                         ]:
                             bot.speak("Até mais! Estarei esperando por novos comandos!")
                             print("Até mais! Estarei esperando por novos comandos!")
+
                             break
 
                         else:
