@@ -299,11 +299,11 @@ Joãozinho entrega para o pai o boleto da mensalidade escolar.
         print(joke)
 
     def what_time(self):
-        self.speak("São {} e {}, horário de Brasília".format(
+        self.speak("São {} e {}".format(
             datetime.datetime.now().hour,
             datetime.datetime.now().minute
         ))
-        print("São {}:{}, horário de Brasília".format(
+        print("São {}:{}".format(
             datetime.datetime.now().hour,
             datetime.datetime.now().minute
         ))
